@@ -1,0 +1,114 @@
+body {
+margin: 0;
+
+}
+.header {
+   margin-top: 0;
+    width: 100%;
+    background-color: rgb(16, 0, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    padding: 0;
+}
+.header img {
+   margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+}
+.info {
+    float: left;
+    color: rgb(0, 217, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+
+}
+.info p {
+    color: black;
+}
+.info h1{
+    font-size: 30px;
+}
+
+.footer {
+    margin-top: 10px;
+    width: 100%;
+ position: absolute;
+ text-align: center;
+ color: rgb(255, 255, 255);
+ background-color: rgb(30, 255, 0);
+
+ top: 4000px;
+
+ float: left;
+}
+.look {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 90%;
+    box-shadow: 0 1px 1em rgba(0,0,0,.2);
+height: 500px;
+margin-bottom: 10px;
+float: left;
+}
+.content-title {
+    border-bottom: 3px solid black ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h3 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+.content p {
+    margin-left: 10px;
+    float: left;
+}
+.content-text img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    border: 3px solid black ;
+}
+
+.look h1 img{
+    height: 200px;
+    width: 300px;
+}
+.content h2 img{
+    height: 225px;
+    width: 275px;
+}
+.menu{
+    background-color: rgb(38, 0, 255);
+    height: 40px;
+
+}
+.menu ul{
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+     margin-top: 10px;
+     padding-right: 30px;
+}
+.account a{
+    background-color: rgb(46, 18, 202);
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: hsl(187, 100%, 74%);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.account a:hover{
+    background-color: rgb(12, 5, 110);
+}
+
+.account a:active{
+    position: relative;
+    top: 2px;
+}
